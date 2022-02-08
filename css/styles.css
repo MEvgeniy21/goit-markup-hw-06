@@ -275,7 +275,7 @@ ul {
 }
 
 .footer-social .text,
-.footer-form-text {
+.footer-form-label {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -299,13 +299,11 @@ ul {
 .footer-form {
   width: 100%;
   margin-left: 93px;
-}
-
-.footer-form-label {
   color: var(--primary-color);
 }
 
-.footer-form-text {
+.footer-form-label {
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -609,13 +607,13 @@ ul {
   color: var(--title-text-color);
 }
 
-.modal-form-label {
+.modal-form-wrap {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
 
-.modal-form-text {
+.modal-form-label {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
@@ -655,7 +653,7 @@ ul {
   color: var(--activated-color);
 }
 
-.modal-label-comment {
+.modal-wrap-comment {
   margin-bottom: 20px;
 }
 
@@ -722,6 +720,7 @@ ul {
 }
 
 .modal-agreement-text {
+  display: block;
   margin-left: 40px;
 }
 
