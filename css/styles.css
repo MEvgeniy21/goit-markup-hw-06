@@ -91,6 +91,14 @@ ul {
   height: auto;
 }
 
+/* Общий шрифт uppercase */
+.font-uppercase {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /* Общие свойства кнопок */
 .btn {
   display: flex;
@@ -274,14 +282,8 @@ ul {
   margin-left: 70px;
 }
 
-.footer-social .text,
-.footer-form-title {
+.footer-social .text {
   margin-bottom: 20px;
-
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-social .link {
@@ -410,8 +412,6 @@ ul {
 .advantage-list .title {
   margin-bottom: 10px;
   font-size: inherit;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .advantage-list .icon-bg {
@@ -453,9 +453,6 @@ ul {
   align-items: center;
   width: 100%;
   height: 70px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
   color: var(--primary-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -602,10 +599,6 @@ ul {
   color: var(--title-text-color);
 }
 
-.modal-form-wrap {
-  margin-bottom: 10px;
-}
-
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
@@ -616,6 +609,7 @@ ul {
 
 .modal-input-wrap {
   position: relative;
+  margin-bottom: 10px;
   color: var(--title-text-color);
 }
 
@@ -646,13 +640,10 @@ ul {
   color: var(--activated-color);
 }
 
-.modal-wrap-comment {
-  margin-bottom: 20px;
-}
-
 .modal-input-comment.modal-form-input {
   display: block;
   height: 120px;
+  margin-bottom: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
